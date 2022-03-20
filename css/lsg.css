@@ -1,0 +1,43 @@
+body {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(6, 200, 142),
+    white,
+    rgb(17, 180, 131)
+  );
+}
+.icon {
+  width: 90%;
+  height: auto;
+  position: relative;
+  margin: auto;
+  right: 2px;
+  padding: 10px;
+}
+ul {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  left: 2px;
+  text-align: left;
+}
+li {
+  left: 5px;
+}
+.container {
+  margin: auto;
+  padding: 2px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 30px;
+}
+.column {
+  width: 29%;
+  text-align: center;
+  padding: 10px;
+  background-image: linear-gradient(to right bottom, white, rgb(12, 235, 168));
+}
+.card {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: left;
+  opacity: 1;
+}
