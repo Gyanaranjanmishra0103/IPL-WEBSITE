@@ -1,0 +1,91 @@
+body {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(28, 31, 235),
+    white,
+    rgb(46, 62, 204)
+  );
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bg {
+  background-image: url(photo/ipl_bg1.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: initial;
+  top: 10px;
+  position: relative;
+  background-origin: content-box;
+}
+.container {
+  margin: 5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 30px;
+}
+.column {
+  top: 1px;
+  position: relative;
+  float: left;
+  left: 2.3%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: auto;
+  width: 19%;
+  height: auto;
+  text-decoration: dotted;
+  padding: auto;
+  border: 2px solid black;
+}
+.row {
+  margin: 0 -5px;
+  height: auto;
+}
+.row:after {
+  content: " ";
+  position: relative;
+  padding: 20px;
+  display: table;
+  clear: both;
+}
+.card {
+  position: relative;
+  padding: 16px;
+  text-align: center;
+  opacity: 0.8;
+}
+.card:hover {
+  content: "Click Here";
+  opacity: 1;
+}
+.btn {
+  width: 100%;
+  height: 100%;
+  
+}
+marquee:hover {
+  scroll-behavior: unset;
+}
+.footer {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+    sans-serif;
+  text-align: right;
+  right: 10px;
+  position: relative;
+  font-size: 25px;
+}
+.bnt {
+  background-color: rgb(109, 157, 219);
+  cursor: pointer;
+  color: white;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	
+	font-size: 150%;
+}
+
+
